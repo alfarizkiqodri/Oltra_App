@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Oltra_App</string>
+    <string name="text_register_perintah">How can I call you? Please fill your information!</string>
+    <string name="name_regist">Name</string>
+    <string name="txt_hint_name">Haribo</string>
+    <string name="txt_hint_email">haribo@gmail.com</string>
+    <string name="txt_hint_pass">Har!boTeam17</string>
+    <string name="Headline_title">Do you smell something today?</string>
+    <string name="promo_headline_text">Train your olfactory system with OLTRA!</string>
+    <string name="register">REGISTER</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

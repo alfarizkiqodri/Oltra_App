@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "65117208301",
+    "project_id": "oltra-b5c07",
+    "storage_bucket": "oltra-b5c07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65117208301:android:d6b4d4468c715aa62316e4",
+        "android_client_info": {
+          "package_name": "com.example.oltra_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65117208301-09ssg25r4bsqg4arnoe73qiuvhfv0vvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oltra_app",
+            "certificate_hash": "2ca796a1cfa77a3948f7664fe5a350bb0256a6c0"
+          }
+        },
+        {
+          "client_id": "65117208301-31f0p99fdtp2v1e52imrp68b6ofd1ir4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEG2x6yCAdx_LrMOngXvR1_0gJ7nhpiVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65117208301-31f0p99fdtp2v1e52imrp68b6ofd1ir4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

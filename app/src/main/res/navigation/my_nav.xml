@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/history">
+
+    <fragment
+        android:id="@+id/history"
+        android:name="com.example.oltra_app.History"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/journal"
+        android:name="com.example.oltra_app.Journal"
+        android:label="fragment_journal"
+        tools:layout="@layout/fragment_journal" />
+    <fragment
+        android:id="@+id/community"
+        android:name="com.example.oltra_app.Community"
+        android:label="fragment_community"
+        tools:layout="@layout/fragment_community" />
+    <fragment
+        android:id="@+id/guide"
+        android:name="com.example.oltra_app.Guide"
+        android:label="fragment_guide"
+        tools:layout="@layout/fragment_guide" />
+    <activity
+        android:id="@+id/homePage"
+        android:name="com.example.oltra_app.HomePage"
+        android:label="activity_home_page"
+        tools:layout="@layout/activity_home_page" />
+</navigation>

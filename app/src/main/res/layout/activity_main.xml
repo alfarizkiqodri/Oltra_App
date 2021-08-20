@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/Headline_title"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="@string/promo_headline_text"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_register_perintah"
+        android:textSize="12sp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/registerstate"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_regist"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/registerstate"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/registername"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input_regis"
+        android:layout_below="@+id/registername"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_name"
+        android:paddingLeft="12dp"
+        android:hint="@string/txt_hint_name"
+        android:inputType="text"
+        android:id="@+id/button_name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/button_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/registeremail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input_regis"
+        android:layout_below="@+id/registeremail"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:paddingLeft="12dp"
+        android:hint="@string/txt_hint_email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/button_email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/button_email"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/registerpass"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input_regis"
+        android:layout_below="@+id/registerpass"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_pass"
+        android:paddingLeft="12dp"
+        android:hint="@string/txt_hint_pass"
+        android:inputType="textPassword"
+        android:id="@+id/button_pass"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_noshadow"
+        android:text="@string/register"
+        android:textStyle="bold"
+        android:layout_below="@id/button_pass"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:id="@+id/registerbutton"/>
+
+</RelativeLayout>
