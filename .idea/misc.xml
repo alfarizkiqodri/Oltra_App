@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Win 10/Documents/Oltra_App/app/src/main/res/layout/activity_daily_task.xml" value="0.1" />
+        <entry key="..\:/Users/Win 10/Documents/Oltra_App/app/src/main/res/layout/activity_home_page.xml" value="0.30173775671406006" />
         <entry key="..\:/Users/Win 10/Documents/Oltra_App/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Win 10/Documents/Oltra_App/app/src/main/res/layout/activity_oltra_start_page.xml" value="0.22" />
+        <entry key="..\:/Users/Win 10/Documents/Oltra_App/app/src/main/res/layout/fragment_history.xml" value="0.1" />
+        <entry key="..\:/Users/Win 10/Documents/Oltra_App/app/src/main/res/layout/fragment_journal.xml" value="0.1" />
+        <entry key="..\:/Users/Win 10/Documents/Oltra_App/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

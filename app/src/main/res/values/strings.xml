@@ -10,4 +10,6 @@
     <string name="register">REGISTER</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="train_instruct">Train your olfactory with our product!</string>
+    <string name="personal_detail">Personal Details</string>
 </resources>

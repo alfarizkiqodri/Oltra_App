@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpage"
+    tools:context=".OltraStartPage">
+
+    <ImageView
+        android:id="@+id/logooltra"
+        android:layout_width="218dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/Headline_title"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_below="@id/logooltra"
+        android:id="@+id/headline"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/train_instruct"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_below="@id/headline"
+        android:id="@+id/traininstruct"/>
+
+    <ImageView
+        android:id="@+id/gambarproduk"
+        android:layout_width="321dp"
+        android:layout_height="274dp"
+        android:layout_below="@id/headline"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fotoproduk" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/register"
+        android:textStyle="bold"
+        android:layout_below="@id/gambarproduk"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:id="@+id/regbutton"/>
+
+
+
+</RelativeLayout>

@@ -4,21 +4,17 @@
     <item
         android:id="@+id/homePage"
         android:title="Home"
-        android:icon="@drawable/ic_home"/>
+        android:icon="@drawable/ic_home"
+        android:enabled="true"/>
     <item
         android:id="@+id/history"
         android:title="History"
-        android:icon="@drawable/ic_history"/>
+        android:icon="@drawable/ic_history"
+        android:enabled="true"/>
     <item
         android:id="@+id/journal"
         android:title="Journal"
-        android:icon="@drawable/ic_daily_journal" />
-    <item
-        android:id="@+id/community"
-        android:title="Community"
-        android:icon="@drawable/ic_community"/>
-    <item
-        android:id="@+id/guide"
-        android:title="Guide"
-        android:icon="@drawable/ic_guide"/>
+        android:icon="@drawable/ic_daily_journal"
+        android:enabled="true"/>
+
 </menu>
