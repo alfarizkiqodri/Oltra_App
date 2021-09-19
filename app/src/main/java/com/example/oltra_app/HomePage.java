@@ -25,14 +25,7 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
 
         //bottom page
-        BottomNavigationView navView = findViewById(R.id.my_nav);
-        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.homePage, R.id.history, R.id.journal
-        ).build();
 
-        NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        NavigationUI.setupWithNavController(navView, navController);
 
 
         //button daily task
